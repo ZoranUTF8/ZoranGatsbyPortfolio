@@ -1,0 +1,7 @@
+__________________________________________________________
+gatsby browser api 
+
+We use the gatsby-browser.js and the method wrapPageElement from gatsby
+And we need to add the gatsby-ssr.js and copy paste the code from  gatsby-browser.js
+__________________________________________________________
+
