@@ -1,24 +1,32 @@
-import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import React from "react";
+import { FaNode, FaJava, FaReact } from "react-icons/fa";
+import { GrGatsbyjs } from "react-icons/Gr";
+import { SiNetlify } from "react-icons/Si";
 const services = [
   {
     id: 1,
-    icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <FaJava className="service-icon" />,
+    title: "Java",
+    text: ``,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <FaNode className="service-icon" />,
+    title: "Node",
+    text: ``,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <FaReact className="service-icon" />,
+    title: "React",
+    text: ``,
   },
-]
+  {
+    id: 4,
+    icon: <GrGatsbyjs className="service-icon" />,
+    title: "Gatsby",
+    text: ``,
+  },
+];
 
-export default services
+export default services;

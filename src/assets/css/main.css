@@ -188,13 +188,15 @@ p {
 
 /* social links */
 .social-links {
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-left: 1.3rem;
   width: 15rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: baseline;
 }
 .social-link {
   font-size: 1.75rem;
+  margin-left: 1rem;
   color: var(--clr-grey-1);
   transition: var(--transition);
 }
