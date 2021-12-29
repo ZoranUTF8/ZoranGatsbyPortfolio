@@ -4,8 +4,34 @@ gatsby browser api
 We use the gatsby-browser.js and the method wrapPageElement from gatsby
 And we need to add the gatsby-ssr.js and copy paste the code from  gatsby-browser.js
 __________________________________________________________
-
 Using Strapi - Open source Node.js Headless CMS
 
+npx create-strapi-app@latest my-project --quickstart
 
+my-project NAME  
+
+--quickstart TYPE OF DB TO USE this i sql lite ( we can use mongo db as well)
+
+instal in new folder
+
+ while setting up our frontend the strapi db has to run instead of contenful where it was hosted in a clooud.
+ to run npm run develop
+
+ http://localhost:1337/admin
+
+ To access the server ⚡️, go to:
+http://localhost:1337
+
+1. create content type
+create separate componenet if needed 
+
+2. add data inside the content manager
+
+ check for restrictions 
+
+3. after adding the data and setting the roles  we can check if we can acces them at http://localhost:1337/api/name
+
+4. instal the gatsby-source-strapi  and add to config
+
+5. set up query in http://localhost:8000/__graphql in all strapy job
 __________________________________________________________
