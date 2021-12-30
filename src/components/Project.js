@@ -13,6 +13,7 @@ const Project = ({
   imageUrl,
   index,
 }) => {
+  //! filter for featured projects
   return (
     <article className="project">
       <img src={imageUrl} alt={title} className="project-img" />

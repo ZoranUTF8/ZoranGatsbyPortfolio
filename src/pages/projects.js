@@ -1,13 +1,17 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Projects from "../components/Projects"
-import Seo from "../components/Seo"
+import React from "react";
+import ProjectsData from "../assets/projectsData/ProjectsData";
+import Projects from "../components/Projects";
+import Seo from "../components/Seo";
+
+
 const ProjectsPage = () => {
   return (
-    <>
-      <h2>projects page</h2>
-    </>
-  )
-}
+    <main>
+      <section className="projects-page">
+        <Projects title="all projects" projects={ProjectsData} />
+      </section>
+    </main>
+  );
+};
 
-export default ProjectsPage
+export default ProjectsPage;
