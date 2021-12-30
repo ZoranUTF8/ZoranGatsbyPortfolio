@@ -3,6 +3,16 @@ import Title from "./Title";
 import Project from "./Project";
 import { Link } from "gatsby";
 const Projects = ({ projects, title, showLink }) => {
+  
+  if (showLink) {
+    projects = projects.filter((item) => {
+      return item.featured === true;
+    });
+    console.log("here");
+  }
+
+  console.log(projects);
+
   return (
     <section className="section projects">
       <Title title={title} />
@@ -13,7 +23,7 @@ const Projects = ({ projects, title, showLink }) => {
       </div>
       {showLink && (
         <Link to="/projects" className="btn center-btn">
-          projects
+          All projects
         </Link>
       )}
     </section>

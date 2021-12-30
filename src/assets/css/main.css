@@ -210,7 +210,7 @@ Navbar
 */
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -682,7 +682,7 @@ Projects
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
 }
-.img-onH:hover{
+.img-onH:hover {
   color: red;
 }
 .project-number {

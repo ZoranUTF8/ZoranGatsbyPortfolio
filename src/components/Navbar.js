@@ -25,7 +25,7 @@ const Navbar = ({ toggleSidebar }) => {
         <div className="nav-links">
           {pageLinks.map((link) => {
             return (
-              <Link key={link.id} to={link.url} onClick={toggleSidebar}>
+              <Link key={link.id} to={link.url} onClick={() => toggleSidebar()}>
                 {link.text}
               </Link>
             );

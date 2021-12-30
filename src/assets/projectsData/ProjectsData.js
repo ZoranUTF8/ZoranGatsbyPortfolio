@@ -38,7 +38,7 @@ const projectData = [
     github: "https://github.com/ZoranUTF8/Simple-recipes-gatsby.js",
     url: "https://jednostavnirecepti.netlify.app",
     imageUrl: "https://i.ibb.co/zQZn6CZ/Screenshot-2021-12-30-at-13-14-23.png",
-    featured: true,
+    featured: false,
     stack: [
       { name: "React", id: 1 },
       { name: "Javascript", id: 2 },
@@ -56,7 +56,7 @@ const projectData = [
     url: "https://hacker-news-react-api.netlify.app/",
     imageUrl:
       "https://zoranjanjic-portofolio.netlify.app/images/hacker-news.png",
-    featured: true,
+    featured: false,
     stack: [
       { name: "React", id: 1 },
       { name: "Javascript", id: 2 },
@@ -87,7 +87,7 @@ const projectData = [
     github: "https://github.com/ZoranUTF8/WeatherApi",
     url: "https://mighty-brushlands-35689.herokuapp.com/",
     imageUrl: "https://zoranjanjic-portofolio.netlify.app/images/weather.png",
-    featured: true,
+    featured: false,
     stack: [
       { name: "Node", id: 1 },
       { name: "Javascript", id: 2 },
