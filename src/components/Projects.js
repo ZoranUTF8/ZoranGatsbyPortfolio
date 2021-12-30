@@ -8,11 +8,8 @@ const Projects = ({ projects, title, showLink }) => {
     projects = projects.filter((item) => {
       return item.featured === true;
     });
-    console.log("here");
+
   }
-
-  console.log(projects);
-
   return (
     <section className="section projects">
       <Title title={title} />

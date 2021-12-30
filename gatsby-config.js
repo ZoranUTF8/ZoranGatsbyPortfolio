@@ -6,7 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-
+  siteMetadata: {
+    title: "Zoran Janjic portfolio",
+    description: "Zoran Janjic portfolio",
+    titleTemplate: `%s | ZJ portfolio`,
+    url: "https://zoran-janjic.netlify.app",
+    twitterUsername: "@janjiczoran23",
+    image: `/mainImg.png`,
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -29,7 +36,6 @@ module.exports = {
             name: `job`,
             endpoint: `jobs/?populate=desc`,
           },
-          
         ],
         // singleTypes: [`home-page`, `contact`],
       },

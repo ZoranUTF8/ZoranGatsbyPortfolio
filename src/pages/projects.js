@@ -5,15 +5,18 @@ import Seo from "../components/Seo";
 
 const ProjectsPage = () => {
   return (
-    <main>
-      <section className="projects-page">
-        <Projects
-          title="all projects"
-          projects={ProjectsData}
-          showLink={false}
-        />
-      </section>
-    </main>
+    <>
+      <Seo title="Projects" />
+      <main>
+        <section className="projects-page">
+          <Projects
+            title="all projects"
+            projects={ProjectsData}
+            showLink={false}
+          />
+        </section>
+      </main>
+    </>
   );
 };
 

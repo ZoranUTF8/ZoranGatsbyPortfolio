@@ -11,10 +11,15 @@ const IndexPage = () => {
   return (
     <>
       <main>
+        <Seo title="Home" />
         <Hero />
         <Services />
         <Jobs />
-        <Projects title={"New projects"} projects={ProjectsData} showLink={true} />
+        <Projects
+          title={"New projects"}
+          projects={ProjectsData}
+          showLink={true}
+        />
       </main>
     </>
   );
