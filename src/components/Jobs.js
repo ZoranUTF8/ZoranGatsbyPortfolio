@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const query = graphql`
   {
-    allStrapiJob {
+    allStrapiJob(sort: { fields: data___attributes___createdAt, order: DESC }) {
       nodes {
         data {
           attributes {
