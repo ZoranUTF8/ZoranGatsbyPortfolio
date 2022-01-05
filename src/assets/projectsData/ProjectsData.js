@@ -184,6 +184,20 @@ const projectData = [
       { name: "Javascript", id: 2 },
     ],
   },
+  {
+    id: 13,
+    title: "MDX Blog",
+    slug: "mdx-blog",
+    description: "Mdx blog ",
+    github: "https://github.com/ZoranUTF8/MDX-Blog",
+    url: "https://happy-austin-b7368a.netlify.app/posts",
+    imageUrl: "https://serving.photos.photobox.com/91766391cf739e6b8dd43ca615a90ac96919dc35fa0a40208b4e84d9a80d813f291987ea.jpg",
+    featured: false,
+    stack: [
+      { name: "Gatsby", id: 1 },
+      { name: "Javascript", id: 2 },
+    ],
+  },
 ];
 
 export default projectData;
